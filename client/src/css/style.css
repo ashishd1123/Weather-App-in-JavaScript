@@ -1,0 +1,125 @@
+.main {
+    background: url(../images/background.png);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+}
+
+.container {
+    height: 100vh;
+    flex-direction: column;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    font-weight: 900;
+    font-family: inherit;
+    columns: white;
+    opacity: 99%;
+    text-shadow: 1px 1px 2px black;
+}
+
+.card {
+    color: white;
+    background: #0087ff;
+    max-width: 500px;
+    width: 100%;
+    opacity: 0.8;
+}
+
+input.search {
+    color: white;
+}
+
+.ui.search.selection {
+    background: #7c7c6b;
+    color: white;
+    font-family: inherit;
+    font-size: 105%;
+    padding: 0.4em 1em;
+    outline: none;
+    border: none;
+    width: 100%;
+    max-width: 100%;
+}
+
+.cityDetails {
+    color: #323232;
+    font-size: 3.5rem;
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+.desc-title {
+    font-size: 38px;
+    margin-top: 30px;
+    line-height: 44.2px;
+}
+
+.weatherIcon {
+    display: flex;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    justify-content: center;
+}
+
+.weatherIcon img {
+    max-width: 100%;
+    width: 8rem;
+}
+
+.weather {
+    margin-top: 33px;
+    font-weight: 900;
+    color: #242a75;
+    font-size: 50px;
+}
+
+.desc {
+    font-size: 38px;
+    margin-top: 30px;
+}
+
+.windDetails {
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    justify-content: space-around;
+}
+
+.windDetails .humidityBox {
+    display: flex;
+    font-size: 1rem;
+    color: #323232;
+}
+
+.windDetails .humidityBox img {
+    max-height: 3rem;
+    margin-right: 0.5rem;
+}
+
+.winds {
+    margin-bottom:  0px;
+}
+
+.wind-direction {
+    margin-top: 0px;
+}
+
+.windDetails .windSpeed {
+    display: flex;
+    font-size: 1rem;
+    color: #323232;
+}
+
+.windDetails .windSpeed img {
+    max-height: 3rem;
+    margin-right: 0.5rem;
+}
